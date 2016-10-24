@@ -12,10 +12,12 @@ class User {
     
     
     private var _name: String
-    private var _age: Int
+    private var _numoffollowers: Int
+    private var _numoffollowing: Int
+    private var _numofposts: Int
+    private var _profileimage: String
     
-    var name: String {
-        
+    var name : String {
         
         
         get {
@@ -24,20 +26,76 @@ class User {
         }
     }
     
-    var age: Int {
+    
+    var numoffollowers: Int {
+        
         
         get {
             
-            
-            return self._age
+            return self._numoffollowers
         }
     }
     
     
-    init(_name: String, _age: Int) {
+    var numoffollowing: Int {
+        
+        get {
+            
+            return self._numoffollowing
+        }
+    }
+    
+    
+    
+    var numofposts: Int {
+        
+        
+        get{
+            
+            return self._numofposts
+        }
+    }
+    
+    
+    
+    var profileimage: String {
+        
+        
+        get {
+            
+            return self._profileimage
+        }
+    }
+    
+    init(){
+        
+        self._name = ""
+        self._numoffollowers = 0
+        self._numoffollowing = 0
+        self._numofposts = 0
+        self._profileimage = ""
+    }
+    
+    
+    init(_name: String, _profileimage: String) {
         
         
         self._name = _name
-        self._age = _age
+        self._numoffollowers = 0
+        self._numoffollowing = 0
+        self._numofposts = 0
+        self._profileimage = _profileimage
     }
+    
+    
+    init(_name: String, _profileImage: String, _numoffollowers: Int, _numoffollowing: Int, _numofposts: Int) {
+        
+        self._name = _name
+        self._profileimage = _profileImage
+        self._numoffollowers = _numoffollowers
+        self._numoffollowing = _numoffollowing
+        self._numofposts = _numofposts
+    }
+    
+    
 }

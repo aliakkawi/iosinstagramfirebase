@@ -9,11 +9,16 @@
 import UIKit
 import Firebase
 
-class SignInViewController: UIViewController {
+class SignInViewController: UIViewController, UITextFieldDelegate {
     
     
     var ref: FIRDatabaseReference!
+    
 
+    @IBOutlet var emailTextField: MaterialTextField!
+    
+    @IBOutlet var passwordTextField: MaterialTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,12 +44,95 @@ class SignInViewController: UIViewController {
         */
         
         
-       print("Hello world")
+       // check for the authentication state.
         
+        FIRAuth.auth()?.addStateDidChangeListener({ (auth, user) in
+            
+            if user != nil {
+                
+                
+                self.performSegue(withIdentifier: "gohomein", sender: nil)
+            }
+            
+        })
+        
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        emailTextField.resignFirstResponder()
+        passwordTextField.resignFirstResponder()
+        
+        
+        return false
     }
 
    
-
+    @IBAction func signInTapped(_ sender: AnyObject) {
+        
+        self.view.endEditing(true)
+        
+        
+        if let email = emailTextField.text, let password = passwordTextField.text{
+            
+            
+            if email == "" || password == "" {
+                
+                displayAlert(title: "Alert", message: "Please fill in all fields")
+                
+            }else {
+                
+                
+                FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, error) in
+                    
+                    
+                    
+                    if error == nil {
+                        
+                        // make a new user in the database.
+                        
+                        let successAlert = UIAlertController(title: "Success", message: "Successfully signed in", preferredStyle: .alert)
+                        let okAction = UIAlertAction(title: "oK", style: .default, handler: { (action) in
+                            
+                            self.performSegue(withIdentifier: "gohomein", sender: nil)
+                        })
+                        
+                        successAlert.addAction(okAction)
+                        self.present(successAlert, animated: true, completion: nil)
+                        
+                    }else {
+                        
+                        self.displayAlert(title: "Alert", message: (error?.localizedDescription)!)
+                        
+                    }
+                })
+                
+            }
+        
+        
+        
+        }
+        
+        
+        
+        
+    }
+        
+        
+    func displayAlert(title: String, message: String){
+        
+        
+        let myAlert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+        
+        myAlert.addAction(okAction)
+        present(myAlert, animated: true, completion: nil)
+        
+    }
 
 }
 

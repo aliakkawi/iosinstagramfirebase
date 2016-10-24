@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0C17EFA32F99524FBC884A4D /* Pods_Instagram_Clone_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9163F1CAEBA7142C4DCA37 /* Pods_Instagram_Clone_Firebase.framework */; };
+		4100DAF21DB4E00A00FFBC00 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4100DAF11DB4E00A00FFBC00 /* HomeCollectionViewController.swift */; };
+		4100DAF41DB5709A00FFBC00 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4100DAF31DB5709A00FFBC00 /* UploadViewController.swift */; };
+		4100DAF61DB5895A00FFBC00 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4100DAF51DB5895A00FFBC00 /* Post.swift */; };
+		4100DAFA1DB597B500FFBC00 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4100DAF91DB597B500FFBC00 /* MBProgressHUD.m */; };
+		4136CB4C1DBB715F000B1582 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136CB4B1DBB715F000B1582 /* HomeCollectionViewCell.swift */; };
+		4136CB4E1DBBA5C1000B1582 /* HomeHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136CB4D1DBBA5C1000B1582 /* HomeHeaderCollectionReusableView.swift */; };
+		4136CB521DBBD75D000B1582 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136CB501DBBD75D000B1582 /* NavigationViewController.swift */; };
+		4136CB531DBBD75D000B1582 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136CB511DBBD75D000B1582 /* TabBarViewController.swift */; };
+		4136CB551DBC03DE000B1582 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136CB541DBC03DE000B1582 /* UpdateProfileViewController.swift */; };
+		4189C8321DBE64B4005C05B0 /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4189C8311DBE64B4005C05B0 /* PostDetailsViewController.swift */; };
 		41A4735F1DB411AE005D05E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A4735E1DB411AE005D05E4 /* AppDelegate.swift */; };
 		41A473611DB411AE005D05E4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A473601DB411AE005D05E4 /* SignInViewController.swift */; };
 		41A473641DB411AE005D05E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A473621DB411AE005D05E4 /* Main.storyboard */; };
@@ -15,9 +25,27 @@
 		41A473691DB411AE005D05E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A473671DB411AE005D05E4 /* LaunchScreen.storyboard */; };
 		41A473711DB4122B005D05E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41A473701DB4122B005D05E4 /* GoogleService-Info.plist */; };
 		41A473771DB4159E005D05E4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A473761DB4159E005D05E4 /* User.swift */; };
+		41A4737A1DB43BD6005D05E4 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A473791DB43BD6005D05E4 /* CustomImageView.swift */; };
+		41A4737C1DB43DCC005D05E4 /* CustomBg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A4737B1DB43DCC005D05E4 /* CustomBg.swift */; };
+		41A473801DB43EEE005D05E4 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A4737D1DB43EEE005D05E4 /* CustomUIView.swift */; };
+		41A473811DB43EEE005D05E4 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A4737E1DB43EEE005D05E4 /* MaterialTextField.swift */; };
+		41A473821DB43EEE005D05E4 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A4737F1DB43EEE005D05E4 /* FancyButton.swift */; };
+		41A473841DB4449A005D05E4 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41A473831DB43F30005D05E4 /* Pacifico.ttf */; };
+		41A473861DB44544005D05E4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A473851DB44544005D05E4 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4100DAF11DB4E00A00FFBC00 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		4100DAF31DB5709A00FFBC00 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		4100DAF51DB5895A00FFBC00 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4100DAF81DB597B500FFBC00 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4100DAF91DB597B500FFBC00 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4136CB4B1DBB715F000B1582 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4136CB4D1DBBA5C1000B1582 /* HomeHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		4136CB501DBBD75D000B1582 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		4136CB511DBBD75D000B1582 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4136CB541DBC03DE000B1582 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		4189C8311DBE64B4005C05B0 /* PostDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
 		41A4735B1DB411AE005D05E4 /* Instagram Clone Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Clone Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A4735E1DB411AE005D05E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A473601DB411AE005D05E4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +56,13 @@
 		41A473701DB4122B005D05E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		41A473721DB41443005D05E4 /* Instagram Clone Firebase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram Clone Firebase-Bridging-Header.h"; sourceTree = "<group>"; };
 		41A473761DB4159E005D05E4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		41A473791DB43BD6005D05E4 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		41A4737B1DB43DCC005D05E4 /* CustomBg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBg.swift; sourceTree = "<group>"; };
+		41A4737D1DB43EEE005D05E4 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		41A4737E1DB43EEE005D05E4 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		41A4737F1DB43EEE005D05E4 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		41A473831DB43F30005D05E4 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		41A473851DB44544005D05E4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		822B14CA3376D17CAC8713A8 /* Pods-Instagram Clone Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram Clone Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram Clone Firebase/Pods-Instagram Clone Firebase.release.xcconfig"; sourceTree = "<group>"; };
 		CD9163F1CAEBA7142C4DCA37 /* Pods_Instagram_Clone_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram_Clone_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB47F78B16E7007AA5E287B9 /* Pods-Instagram Clone Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram Clone Firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram Clone Firebase/Pods-Instagram Clone Firebase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4100DAF71DB597A900FFBC00 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4100DAF81DB597B500FFBC00 /* MBProgressHUD.h */,
+				4100DAF91DB597B500FFBC00 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4136CB4F1DBBD749000B1582 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				4136CB501DBBD75D000B1582 /* NavigationViewController.swift */,
+				4136CB511DBBD75D000B1582 /* TabBarViewController.swift */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
 		41A473521DB411AE005D05E4 = {
 			isa = PBXGroup;
 			children = (
@@ -66,15 +119,26 @@
 		41A4735D1DB411AE005D05E4 /* Instagram Clone Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				4136CB4F1DBBD749000B1582 /* Design */,
+				4100DAF71DB597A900FFBC00 /* MBProgressHUD */,
+				41A473781DB43B9A005D05E4 /* Views */,
 				41A473751DB41591005D05E4 /* Model */,
 				41A4735E1DB411AE005D05E4 /* AppDelegate.swift */,
 				41A473601DB411AE005D05E4 /* SignInViewController.swift */,
+				41A473851DB44544005D05E4 /* SignUpViewController.swift */,
+				4100DAF11DB4E00A00FFBC00 /* HomeCollectionViewController.swift */,
+				4136CB4B1DBB715F000B1582 /* HomeCollectionViewCell.swift */,
+				4136CB4D1DBBA5C1000B1582 /* HomeHeaderCollectionReusableView.swift */,
+				4100DAF31DB5709A00FFBC00 /* UploadViewController.swift */,
+				4136CB541DBC03DE000B1582 /* UpdateProfileViewController.swift */,
 				41A473621DB411AE005D05E4 /* Main.storyboard */,
 				41A473651DB411AE005D05E4 /* Assets.xcassets */,
 				41A473671DB411AE005D05E4 /* LaunchScreen.storyboard */,
 				41A4736A1DB411AE005D05E4 /* Info.plist */,
 				41A473701DB4122B005D05E4 /* GoogleService-Info.plist */,
+				41A473831DB43F30005D05E4 /* Pacifico.ttf */,
 				41A473721DB41443005D05E4 /* Instagram Clone Firebase-Bridging-Header.h */,
+				4189C8311DBE64B4005C05B0 /* PostDetailsViewController.swift */,
 			);
 			path = "Instagram Clone Firebase";
 			sourceTree = "<group>";
@@ -83,8 +147,21 @@
 			isa = PBXGroup;
 			children = (
 				41A473761DB4159E005D05E4 /* User.swift */,
+				4100DAF51DB5895A00FFBC00 /* Post.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		41A473781DB43B9A005D05E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41A4737D1DB43EEE005D05E4 /* CustomUIView.swift */,
+				41A4737E1DB43EEE005D05E4 /* MaterialTextField.swift */,
+				41A4737F1DB43EEE005D05E4 /* FancyButton.swift */,
+				41A473791DB43BD6005D05E4 /* CustomImageView.swift */,
+				41A4737B1DB43DCC005D05E4 /* CustomBg.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		77DDBCBF9955EC03270633AE /* Frameworks */ = {
@@ -169,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A473691DB411AE005D05E4 /* LaunchScreen.storyboard in Resources */,
+				41A473841DB4449A005D05E4 /* Pacifico.ttf in Resources */,
 				41A473661DB411AE005D05E4 /* Assets.xcassets in Resources */,
 				41A473711DB4122B005D05E4 /* GoogleService-Info.plist in Resources */,
 				41A473641DB411AE005D05E4 /* Main.storyboard in Resources */,
@@ -230,9 +308,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4189C8321DBE64B4005C05B0 /* PostDetailsViewController.swift in Sources */,
 				41A473611DB411AE005D05E4 /* SignInViewController.swift in Sources */,
+				4100DAF41DB5709A00FFBC00 /* UploadViewController.swift in Sources */,
+				41A473821DB43EEE005D05E4 /* FancyButton.swift in Sources */,
+				4136CB551DBC03DE000B1582 /* UpdateProfileViewController.swift in Sources */,
+				4100DAF61DB5895A00FFBC00 /* Post.swift in Sources */,
+				4136CB4E1DBBA5C1000B1582 /* HomeHeaderCollectionReusableView.swift in Sources */,
+				41A473801DB43EEE005D05E4 /* CustomUIView.swift in Sources */,
+				4100DAF21DB4E00A00FFBC00 /* HomeCollectionViewController.swift in Sources */,
+				41A4737C1DB43DCC005D05E4 /* CustomBg.swift in Sources */,
+				4136CB521DBBD75D000B1582 /* NavigationViewController.swift in Sources */,
+				4136CB531DBBD75D000B1582 /* TabBarViewController.swift in Sources */,
+				4136CB4C1DBB715F000B1582 /* HomeCollectionViewCell.swift in Sources */,
+				41A4737A1DB43BD6005D05E4 /* CustomImageView.swift in Sources */,
 				41A4735F1DB411AE005D05E4 /* AppDelegate.swift in Sources */,
+				4100DAFA1DB597B500FFBC00 /* MBProgressHUD.m in Sources */,
+				41A473861DB44544005D05E4 /* SignUpViewController.swift in Sources */,
 				41A473771DB4159E005D05E4 /* User.swift in Sources */,
+				41A473811DB43EEE005D05E4 /* MaterialTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

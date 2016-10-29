@@ -131,6 +131,7 @@
 				4136CB4D1DBBA5C1000B1582 /* HomeHeaderCollectionReusableView.swift */,
 				4100DAF31DB5709A00FFBC00 /* UploadViewController.swift */,
 				4136CB541DBC03DE000B1582 /* UpdateProfileViewController.swift */,
+				4189C8311DBE64B4005C05B0 /* PostDetailsViewController.swift */,
 				41A473621DB411AE005D05E4 /* Main.storyboard */,
 				41A473651DB411AE005D05E4 /* Assets.xcassets */,
 				41A473671DB411AE005D05E4 /* LaunchScreen.storyboard */,
@@ -138,7 +139,6 @@
 				41A473701DB4122B005D05E4 /* GoogleService-Info.plist */,
 				41A473831DB43F30005D05E4 /* Pacifico.ttf */,
 				41A473721DB41443005D05E4 /* Instagram Clone Firebase-Bridging-Header.h */,
-				4189C8311DBE64B4005C05B0 /* PostDetailsViewController.swift */,
 			);
 			path = "Instagram Clone Firebase";
 			sourceTree = "<group>";

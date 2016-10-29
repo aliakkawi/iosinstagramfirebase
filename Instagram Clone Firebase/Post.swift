@@ -17,6 +17,7 @@ class Post {
     private var _posttext: String
     private var _user_id: String
     private var _post_id: String!
+    private var _numOfLikes: Int
     
     
     var name: String {
@@ -70,6 +71,14 @@ class Post {
         }
     }
     
+    var nuomOfLikes: Int {
+        
+        get{
+            
+            return self._numOfLikes
+        }
+    }
+    
     
     init(_name: String, _imageurl: String, _posttext: String, _user_id: String) {
         
@@ -78,6 +87,7 @@ class Post {
         self._imageurl = _imageurl
         self._posttext = _posttext
         self._user_id = _user_id
+        self._numOfLikes = 0
         
         
         

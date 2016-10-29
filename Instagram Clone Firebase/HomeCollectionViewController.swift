@@ -46,7 +46,7 @@ class HomeCollectionViewController: UICollectionViewController {
         
         postRef.observe(.value, with: { (snapshot) in
             
-            if let snapshot = snapshot.children.allObjects as? [FIRDataSnapshot] {
+            if let snapshot = snapshot.children.allObjects as? [FIRDataSnapshot] { // this will give us the children 
                 
                 for snap in snapshot {
                     
@@ -89,7 +89,8 @@ class HomeCollectionViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "homeCell", for: indexPath) as! HomeCollectionViewCell
     
-        // Configure the cell
+        // Configure the cell, 
+        // here we simply used a 3rd part framework to download and cache the images, in the devslopes project, we used ios build in chache system to cache and download images.
         cell.postImageView.sd_setImage(with: URL(string: posts[indexPath.row].imageurl), placeholderImage: #imageLiteral(resourceName: "imageplaceholder"), options: [.continueInBackground, .progressiveDownload])
     
         return cell

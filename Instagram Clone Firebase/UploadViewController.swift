@@ -128,7 +128,7 @@ class UploadViewController: UIViewController, UITextFieldDelegate, UIImagePicker
                                 
                                 let newPost = Post(_name: username, _imageurl: url, _posttext: postText, _user_id: (FIRAuth.auth()?.currentUser?.uid)!)
                                 
-                                let thePost: [String: AnyObject] = ["imageurl": newPost.imageurl as AnyObject, "name": newPost.name as AnyObject, "posttext": newPost.posttext as AnyObject, "user_id": newPost.user_id as AnyObject]
+                                let thePost: [String: AnyObject] = ["imageurl": newPost.imageurl as AnyObject, "name": newPost.name as AnyObject, "posttext": newPost.posttext as AnyObject, "user_id": newPost.user_id as AnyObject, "numoflikes": newPost.nuomOfLikes as AnyObject]
                                 
                                 
                                 
@@ -190,6 +190,17 @@ class UploadViewController: UIViewController, UITextFieldDelegate, UIImagePicker
         
         
         
+    }
+    
+    //when we touch the white area the keyboard disappears.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        postTextView.resignFirstResponder()
+        
+        return false
     }
     func displayAlert(title: String, message: String){
         

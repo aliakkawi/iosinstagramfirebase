@@ -16,6 +16,7 @@ class User {
     private var _numoffollowing: Int
     private var _numofposts: Int
     private var _profileimage: String
+    private var _userId: String
     
     var name : String {
         
@@ -23,6 +24,16 @@ class User {
         get {
             
             return self._name
+        }
+    }
+    
+    
+    var userId: String {
+        
+        
+        get {
+            
+            return self._userId
         }
     }
     
@@ -74,6 +85,7 @@ class User {
         self._numoffollowing = 0
         self._numofposts = 0
         self._profileimage = ""
+        self._userId = ""
     }
     
     
@@ -85,16 +97,18 @@ class User {
         self._numoffollowing = 0
         self._numofposts = 0
         self._profileimage = _profileimage
+        self._userId = ""
     }
     
     
-    init(_name: String, _profileImage: String, _numoffollowers: Int, _numoffollowing: Int, _numofposts: Int) {
+    init(_name: String, _profileImage: String, _numoffollowers: Int, _numoffollowing: Int, _numofposts: Int, _userId: String) {
         
         self._name = _name
         self._profileimage = _profileImage
         self._numoffollowers = _numoffollowers
         self._numoffollowing = _numoffollowing
         self._numofposts = _numofposts
+        self._userId = _userId
     }
     
     

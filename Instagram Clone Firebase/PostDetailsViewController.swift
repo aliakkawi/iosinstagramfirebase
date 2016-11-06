@@ -42,7 +42,7 @@ class PostDetailsViewController: UIViewController {
         postRef = ref.child("Posts")
         postRef.child(postId).observe(.value, with: { (snapshot) in
             
-             let snapshotValue = snapshot.value as! [String: AnyObject]
+            let snapshotValue = snapshot.value as! [String: AnyObject]
             
             let postText = snapshotValue["posttext"] as! String
             let postImageUrl = snapshotValue["imageurl"] as! String
@@ -136,15 +136,6 @@ class PostDetailsViewController: UIViewController {
             
             postRef.child(postId).updateChildValues(newLikesNumber)
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
     }

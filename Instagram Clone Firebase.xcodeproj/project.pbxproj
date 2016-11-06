@@ -32,6 +32,8 @@
 		41A473821DB43EEE005D05E4 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A4737F1DB43EEE005D05E4 /* FancyButton.swift */; };
 		41A473841DB4449A005D05E4 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41A473831DB43F30005D05E4 /* Pacifico.ttf */; };
 		41A473861DB44544005D05E4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A473851DB44544005D05E4 /* SignUpViewController.swift */; };
+		41EB27871DCF6D76008B9B60 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB27861DCF6D76008B9B60 /* UsersListViewController.swift */; };
+		41EB27891DCF71EA008B9B60 /* UsersListCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB27881DCF71EA008B9B60 /* UsersListCustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		41A4737F1DB43EEE005D05E4 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		41A473831DB43F30005D05E4 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
 		41A473851DB44544005D05E4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		41EB27861DCF6D76008B9B60 /* UsersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
+		41EB27881DCF71EA008B9B60 /* UsersListCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersListCustomTableViewCell.swift; sourceTree = "<group>"; };
 		822B14CA3376D17CAC8713A8 /* Pods-Instagram Clone Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram Clone Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram Clone Firebase/Pods-Instagram Clone Firebase.release.xcconfig"; sourceTree = "<group>"; };
 		CD9163F1CAEBA7142C4DCA37 /* Pods_Instagram_Clone_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram_Clone_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB47F78B16E7007AA5E287B9 /* Pods-Instagram Clone Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram Clone Firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram Clone Firebase/Pods-Instagram Clone Firebase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 				4100DAF31DB5709A00FFBC00 /* UploadViewController.swift */,
 				4136CB541DBC03DE000B1582 /* UpdateProfileViewController.swift */,
 				4189C8311DBE64B4005C05B0 /* PostDetailsViewController.swift */,
+				41EB27861DCF6D76008B9B60 /* UsersListViewController.swift */,
+				41EB27881DCF71EA008B9B60 /* UsersListCustomTableViewCell.swift */,
 				41A473621DB411AE005D05E4 /* Main.storyboard */,
 				41A473651DB411AE005D05E4 /* Assets.xcassets */,
 				41A473671DB411AE005D05E4 /* LaunchScreen.storyboard */,
@@ -311,6 +317,7 @@
 				4189C8321DBE64B4005C05B0 /* PostDetailsViewController.swift in Sources */,
 				41A473611DB411AE005D05E4 /* SignInViewController.swift in Sources */,
 				4100DAF41DB5709A00FFBC00 /* UploadViewController.swift in Sources */,
+				41EB27891DCF71EA008B9B60 /* UsersListCustomTableViewCell.swift in Sources */,
 				41A473821DB43EEE005D05E4 /* FancyButton.swift in Sources */,
 				4136CB551DBC03DE000B1582 /* UpdateProfileViewController.swift in Sources */,
 				4100DAF61DB5895A00FFBC00 /* Post.swift in Sources */,
@@ -325,6 +332,7 @@
 				41A4735F1DB411AE005D05E4 /* AppDelegate.swift in Sources */,
 				4100DAFA1DB597B500FFBC00 /* MBProgressHUD.m in Sources */,
 				41A473861DB44544005D05E4 /* SignUpViewController.swift in Sources */,
+				41EB27871DCF6D76008B9B60 /* UsersListViewController.swift in Sources */,
 				41A473771DB4159E005D05E4 /* User.swift in Sources */,
 				41A473811DB43EEE005D05E4 /* MaterialTextField.swift in Sources */,
 			);
